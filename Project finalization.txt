@@ -12,7 +12,7 @@ Hardening -
 POC VUE - spisat result - pros / cons + prezentovatelny vystup																						DONE	
 Dokumentacia - 																																				
 			How to run. 																															IN PROGRESS
-			How to continue with development (local run) 																							TODO
+			How to continue with development (local run) 																							IN PROGRESS
 			Execution template detail documentation																									TODO
 			Add proper javadoc to all interfaces																									TODO
 																																					

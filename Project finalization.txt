@@ -1,0 +1,39 @@
+Odovzdat agendu - Martin, Lukas																														IN PROGRESS
+Hardening - 																																			
+			SSH service / demo branch do mastra																										DONE
+			Messenger 																																DONE
+			SPLUNK - forward data, create index visualize (simple) dashboard																		IN PROGRESS
+			Logging update - write to console and log file																							DONE
+			AWS run - doma 																															TODO
+			AWS run - SAM 																															TODO
+			AWS run - CDD 																															TODO
+			AWS run - PS - Alex (blbe otazky) 																										TODO
+																																					
+POC VUE - spisat result - pros / cons + prezentovatelny vystup																						DONE	
+Dokumentacia - 																																				
+			How to run. 																															TODO
+			How to continue with development (local run) 																							TODO
+			Execution template detail documentation																									TODO
+			Add proper javadoc to all interfaces																									TODO
+																																					
+Additional work (spisat co este treba developovat)																									
+					- cleanup service obmedzenie na typ suborov / priecinky a pod. 																	NEXT
+					- Dry run 																														NEXT
+					- Update tests from using when().thenReturn() to doReturn().when() where necessary (CleanupServiceTest) 						NEXT
+					- DB Rollback testing																											TODO
+					- move LF model to "library" dependency																							NEXT
+																			
+																			
+					- rewrite output to CSV	(multiple files)																						REVIEW
+					- obmedzit data v snapshotoch - CPU utilization/ mem utilization 																REVIEW
+					- dve CSV jeden pre snapshoty a dalsie CSV pre processy - flat struct															REVIEW
+					- sync times in nmons 																											IN PROGRESS
+					
+					<ProcessId>,<ProcessName>,<ParentId>,<RootId>,<IsLeaf>,<StartTime>,<EndTime>,<ElapsedTime>
+					
+					<Timestamp>,<AisCpuUtil>,<AisMemUtil>,<DbCpuUtil>,<DbMemUtil>
+
+					- kam zapisat hardware specs? 
+					- ako identifikovat segmenty? - dalsie csv <segmentId>,<executionId>,<instanceId>,<rootProcessId> ??
+					- time sync? pridat stlpec pre DB timestamp
+					

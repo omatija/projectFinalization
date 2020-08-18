@@ -24,10 +24,12 @@ Additional work (spisat co este treba developovat)
 					- move LF model to "library" dependency																							NEXT
 																			
 																			
-					- rewrite output to CSV	(multiple files)																						REVIEW
-					- obmedzit data v snapshotoch - CPU utilization/ mem utilization 																REVIEW
-					- dve CSV jeden pre snapshoty a dalsie CSV pre processy - flat struct															REVIEW
-					- sync times in nmons 																											IN PROGRESS
+					- rewrite output to CSV	(multiple files)																						DONE
+					- obmedzit data v snapshotoch - CPU utilization/ mem utilization 																DONE
+					- dve CSV jeden pre snapshoty a dalsie CSV pre processy - flat struct															DONE
+					- sync times in nmons 																											NEXT
+					- pie chart v simple reporte																									IN PROGRESS
+					- fixnuť Jenkins orcherstrator build job (problem sonar - použiva stare pravidla)												NEXT
 					
 					<ProcessId>,<ProcessName>,<ParentId>,<RootId>,<IsLeaf>,<StartTime>,<EndTime>,<ElapsedTime>
 					

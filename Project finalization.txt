@@ -4,7 +4,7 @@ Hardening -
 			Messenger 																																DONE
 			SPLUNK - forward data, create index visualize (simple) dashboard																		IN PROGRESS
 			Logging update - write to console and log file																							DONE
-			AWS run - doma 																															TODO
+			AWS run - doma 																															IN PROGRESS
 			AWS run - SAM 																															TODO
 			AWS run - CDD 																															TODO
 			AWS run - PS - Alex (blbe otazky) 																										TODO
@@ -24,10 +24,10 @@ Additional work (spisat co este treba developovat)
 					- move LF model to "library" dependency																							NEXT
 																			
 																			
-					- rewrite output to CSV	(multiple files)																						DONE
+					- rewrite output to CSV	(multiple files)																						READY FOR TEST
 					- obmedzit data v snapshotoch - CPU utilization/ mem utilization 																DONE
 					- dve CSV jeden pre snapshoty a dalsie CSV pre processy - flat struct															DONE
-					- sync times in nmons 																											NEXT
+					- sync times in nmons 																											READY FOR TEST
 					- pie chart v simple reporte																									IN PROGRESS
 					- fixnuť Jenkins orcherstrator build job (problem sonar - použiva stare pravidla)												NEXT
 					
@@ -35,7 +35,8 @@ Additional work (spisat co este treba developovat)
 					
 					<Timestamp>,<AisCpuUtil>,<AisMemUtil>,<DbCpuUtil>,<DbMemUtil>
 
-					- kam zapisat hardware specs? 
+					- kam zapisat hardware specs? (dalsie csv)																						NEXT
 					- ako identifikovat segmenty? - dalsie csv <segmentId>,<executionId>,<instanceId>,<rootProcessId> ??
 					- time sync? pridat stlpec pre DB timestamp
+					- uplad files from orchestratol to splunk																						NEXT
 					

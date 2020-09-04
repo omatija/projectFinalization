@@ -4,8 +4,8 @@ Hardening -
 			Messenger 																																DONE
 			SPLUNK - forward data, create index visualize (simple) dashboard																		IN PROGRESS
 			Logging update - write to console and log file																							DONE
-			AWS run - doma 																															IN PROGRESS
-			AWS run - SAM 																															TODO
+			AWS run - doma 																															DONE
+			AWS run - SAM 																															IN PROGRESS
 			AWS run - CDD 																															TODO
 			AWS run - PS - Alex (blbe otazky) 																										TODO
 																																					
@@ -24,19 +24,20 @@ Additional work (spisat co este treba developovat)
 					- move LF model to "library" dependency																							NEXT
 																			
 																			
-					- rewrite output to CSV	(multiple files)																						READY FOR TEST
+					- rewrite output to CSV	(multiple files)																						DONE
 					- obmedzit data v snapshotoch - CPU utilization/ mem utilization 																DONE
 					- dve CSV jeden pre snapshoty a dalsie CSV pre processy - flat struct															DONE
-					- sync times in nmons 																											READY FOR TEST
-					- pie chart v simple reporte																									IN PROGRESS
+					- sync times in nmons 																											DONE
+					- pie chart v simple reporte																									DONE
 					- fixnuť Jenkins orcherstrator build job (problem sonar - použiva stare pravidla)												NEXT
 					
 					<ProcessId>,<ProcessName>,<ParentId>,<RootId>,<IsLeaf>,<StartTime>,<EndTime>,<ElapsedTime>
 					
 					<Timestamp>,<AisCpuUtil>,<AisMemUtil>,<DbCpuUtil>,<DbMemUtil>
 
-					- kam zapisat hardware specs? (dalsie csv)																						NEXT
+					- zapisat hardware specs? (dalsie csv)																							TODO
 					- ako identifikovat segmenty? - dalsie csv <segmentId>,<executionId>,<instanceId>,<rootProcessId> ??
-					- time sync? pridat stlpec pre DB timestamp
-					- uplad files from orchestratol to splunk																						NEXT
+					- refactor simple report podľa Jožovych požiadaviek																				IN PROGRESS
+					- uplad files from orchestratol to splunk																						TODO
+					- pridať help do orchestrator aplikacie																							TODO
 					

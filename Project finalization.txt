@@ -1,34 +1,25 @@
 Odovzdat agendu - Martin, Lukas																														IN PROGRESS
 Hardening - 																																			
-			SSH service / demo branch do mastra																										DONE
-			Messenger 																																DONE
 			SPLUNK - forward data, create index visualize (simple) dashboard																		IN PROGRESS
 			Logging update - write to console and log file																							DONE
 			AWS run - doma 																															DONE
 			AWS run - SAM 																															IN PROGRESS
 			AWS run - CDD 																															TODO
 			AWS run - PS - Alex (blbe otazky) 																										TODO
-																																					
-POC VUE - spisat result - pros / cons + prezentovatelny vystup																						DONE	
+																																						
 Dokumentacia - 																																				
 			How to run. 																															IN PROGRESS
 			How to continue with development (local run) 																							IN PROGRESS
 			Execution template detail documentation																									TODO
-			Add proper javadoc to all interfaces																									TODO
+			
 																																					
 Additional work (spisat co este treba developovat)																									
 					- cleanup service obmedzenie na typ suborov / priecinky a pod. 																	NEXT
 					- Dry run 																														NEXT
-					- Update tests from using when().thenReturn() to doReturn().when() where necessary (CleanupServiceTest) 						NEXT
+					- Update tests from using when().thenReturn() to doReturn().when() where necessary (CleanupServiceTest) 						IN PROGRESS
 					- DB Rollback testing																											TODO
 					- move LF model to "library" dependency																							NEXT
 																			
-																			
-					- rewrite output to CSV	(multiple files)																						DONE
-					- obmedzit data v snapshotoch - CPU utilization/ mem utilization 																DONE
-					- dve CSV jeden pre snapshoty a dalsie CSV pre processy - flat struct															DONE
-					- sync times in nmons 																											DONE
-					- pie chart v simple reporte																									DONE
 					- fixnuť Jenkins orcherstrator build job (problem sonar - použiva stare pravidla)												NEXT
 					
 					<ProcessId>,<ProcessName>,<ParentId>,<RootId>,<IsLeaf>,<StartTime>,<EndTime>,<ElapsedTime>
@@ -39,5 +30,17 @@ Additional work (spisat co este treba developovat)
 					- ako identifikovat segmenty? - dalsie csv <segmentId>,<executionId>,<instanceId>,<rootProcessId> ??
 					- refactor simple report podľa Jožovych požiadaviek																				IN PROGRESS
 					- uplad files from orchestratol to splunk																						TODO
-					- pridať help do orchestrator aplikacie																							TODO
 					
+					
+					
+==================================================================================================================================================================================
+					- rewrite output to CSV	(multiple files)																						DONE
+					- obmedzit data v snapshotoch - CPU utilization/ mem utilization 																DONE
+					- dve CSV jeden pre snapshoty a dalsie CSV pre processy - flat struct															DONE
+					- sync times in nmons 																											DONE
+					- pie chart v simple reporte																									DONE
+					- pridať help do orchestrator aplikacie																							DONE
+			- Add proper javadoc to all interfaces																									DONE
+POC VUE - spisat result - pros / cons + prezentovatelny vystup																						DONE
+			SSH service / demo branch do mastra																										DONE
+			Messenger 																																DONE

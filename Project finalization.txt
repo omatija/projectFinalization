@@ -26,14 +26,21 @@ Additional work (spisat co este treba developovat)
 					
 					<Timestamp>,<AisCpuUtil>,<AisMemUtil>,<DbCpuUtil>,<DbMemUtil>
 
-					- zapisat hardware specs? (dalsie csv)																							TODO
-					- ako identifikovat segmenty? - dalsie csv <segmentId>,<executionId>,<instanceId>,<rootProcessId> ??
+					
 					- refactor simple report podľa Jožovych požiadaviek																				IN PROGRESS
-					- uplad files from orchestratol to splunk																						TODO
+					
+					zdokumentovať projekt																											IN PROGRESS
+					opraviť JUnity a zvyšiť pokrytie																								TODO
+					pridať info do identity o verziach systemu																						TODO
+					upraviť politiku logovania pre orchestrator - jedno spustenie jeden log subor, log subor obsahuje envid							TODO
+					zabezpečiť aby nebolo možné uložiť dva runy pod jedním envid																	TODO
 					
 					
 					
 ==================================================================================================================================================================================
+					- zapisat hardware specs? (dalsie csv)																							DONE
+					- ako identifikovat segmenty? - dalsie csv <segmentId>,<executionId>,<instanceId>,<rootProcessId> ??							DONE
+					- uplad files from orchestratol to splunk																						DONE
 					- rewrite output to CSV	(multiple files)																						DONE
 					- obmedzit data v snapshotoch - CPU utilization/ mem utilization 																DONE
 					- dve CSV jeden pre snapshoty a dalsie CSV pre processy - flat struct															DONE

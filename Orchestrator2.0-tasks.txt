@@ -1,0 +1,19 @@
+VYLEPSENIE USER EXPERIENCE - Priebežne upravovať dokumentaciu na confluence, readme
+
+VYLEPSENIE USER EXPERIENCE - Jenkins pridanie orchestratora a zavislosti do pipeliny na vytvaranie AIS servra 
+								OR vytvorenie jenkins jobu na set up AIS servra
+	
+VYLEPSENIE USER EXPERIENCE - samostatný log súbor pre kaźdý run aplikácie, v mene bude envID
+VYLEPSENIE MONITORINGU 	   - pridať do identity csv a slunk json informacie o verziach vytiahnuté zo servra a z DB (došpecifikovať čo a odkiaľ)
+RECOVERY				   - moznosť spustenia Orchestratora bez spustenia monitoringu a generovania nmonov (opätovné tlačenie dát do splunku po zlyhani splunku)
+CLEAN UP SYSTEM			   - Zadefinovať ktoré subory sa majú mazať (chápem to tak že sa to bude musieť asi robiť cez datum kedy subor vznikol)
+VYLEPSENIE MONITORINGU	   - Pridať do zipka loggy z behu benchmarku (chápem to tak že sa to bude musieť asi robiť cez datum kedy subor vznikol)
+FAIL PREVENTION 		   - pridanie kontroly ak envId nie je unikatne tj. data su už v splunku alebo v zip pre také envId oznamiť userovy a pridať na koniec envId nejaký index
+	
+VYLEPSENIE USER EXPERIENCE - Override executionTemplate.properties mať zakladny properties file a mať rozširený proeprties file (zakladný by obsahoval najnutnejšie minimum rozširený aj také veci ako nmon prikazy, všetky cesty)
+VYLEPSENIE MONITORINGU	   - Simple report?
+FAIL PREVENTION            - Dry run - orchestrator sa spusti v testovacom mode (došpecifikovať)
+						
+
+
+

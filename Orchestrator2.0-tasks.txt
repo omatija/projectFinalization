@@ -14,6 +14,16 @@ VYLEPSENIE USER EXPERIENCE - Override executionTemplate.properties mať zakladny
 VYLEPSENIE MONITORINGU	   - Simple report?
 FAIL PREVENTION            - Dry run - orchestrator sa spusti v testovacom mode (došpecifikovať)
 						
+						
+
+Kontrola envId:
+1. skontroluje ci lokalny archiv neobsahuje zip s menom
+2. ak obsahuje prilepy k envId index 1
+3. znova kontrola a ak obsahuje dviha index kym nenajde taky co neobsahuje
+4. ak je S3 povoleny vykona kontrolu s aktualnym envId
+5. obdobne dviha envId a kontroluje pre S3
+6. ak je splunk povoleny vykona search index=perf-report | stats values(envId) a overi si aktualne envId ak je ondobne dviha   https://docs.splunk.com/Documentation/Splunk/8.0.6/RESTTUT/RESTsearches
+7. nakonci skontrluje este raz envId voci vsetkym povolenym lokalny file store, s3   
 
 
 
